@@ -44,8 +44,8 @@ public class TaFlight extends Module {
     public TaFlight() {
         super(AddonTemplate.CATEGORY, "TaFlight", "TaFlight speed at 1.65");
     }
-    
 
+    
     @EventHandler
     private void onPlayerMove(PlayerMoveEvent event) {
 
